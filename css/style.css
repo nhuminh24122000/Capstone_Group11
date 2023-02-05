@@ -1125,6 +1125,87 @@ a.read:hover {
     color: var(--primary-color);
 }
 
+/* NUMBER */
+
+.number {
+    background: var(--primary-color);
+}
+
+.number_info p {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.number_info h4 {
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+.number_info span.fa {
+    font-size: 2.5em;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.number_bottom_grid_left img {
+    margin: 0 auto;
+}
+
+.number_info {
+    text-align: center;
+    padding: 0;
+    border-top: none;
+    border-bottom: none;
+}
+
+.number_info:nth-child(3) {
+    border-right: 0px;
+}
+
+.number_info:nth-child(2) {
+    border-left: 0px;
+    border-right: 0px;
+}
+
+@media (max-width: 992px) {
+    .number_info p {
+        font-size: 40px !important;
+        line-height: 50px;
+    }
+    .number_info h4 {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 737px) {
+    .number_info {
+        padding: 0 5px !important;
+    }
+    .number_info p {
+        font-size: 35px !important;
+        line-height: 38px;
+        margin-top: 20px;
+    }
+    .number_info h4 {
+        font-size: 17px !important;
+    }
+}
+
+@media (max-width: 415px) {
+    .number_info span.fa {
+        font-size: 2em !important;
+    }
+}
+
 /*-- Toggle switch --*/
 
 .theme-switch-wrapper {

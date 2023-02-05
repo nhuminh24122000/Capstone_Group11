@@ -174,7 +174,30 @@
 
     <section class="features"></section>
     <section class="services"></section>
-    <section class="number"></section>
+    
+    <section class="number py-5">
+        <div class="container py-lg-0 py-3">
+            <div class="row pb-lg-3">
+                <div class="col-lg-3 col-6 number_info counter_grid">
+                    <p class="counter">730</p>
+                    <h4>Happy Clients</h4>
+                </div>
+                <div class="col-lg-3 col-6 number_info">
+                    <p class="counter">80</p>
+                    <h4>Professionals</h4>
+                </div>
+                <div class="col-lg-3 col-6 number_info mt-lg-0 mt-5">
+                    <p class="counter">812</p>
+                    <h4>Adopted Pets</h4>
+                </div>
+                <div class="col-lg-3 col-6 number_info mt-lg-0 mt-5">
+                    <p class="counter">90</p>
+                    <h4>Awards</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="plans"></section>
     <section class="nutrition"></section>
     <section class="testimonials"></section>
@@ -248,6 +271,13 @@
                 }
             })
         })
+    </script>
+
+    <!-- Number counter-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="./js/jquery.countup.js"></script>
+    <script>
+        $('.counter').countUp();
     </script>
 
 </body>
