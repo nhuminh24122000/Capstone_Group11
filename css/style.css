@@ -191,6 +191,10 @@ li {
     }
 }
 
+body img {
+    border-radius: 10px;
+}
+
 /* HEADER */
 
 .fixed-top {
@@ -1006,38 +1010,6 @@ nav ul li a:hover {
     left: 0px;
     right: 0px;
     bottom: 30px;
-}
-
-.owl-theme .owl-nav [class*=owl-] {
-    color: #fff;
-    font-size: 32px;
-    margin: 0px;
-    width: 82px;
-    background: rgba(255, 255, 255, 0.21);
-    display: inline-block;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    height: 82px;
-    line-height: 15px;
-    border-radius: 8px;
-}
-
-.owl-theme .owl-nav [class*=owl-]:hover {
-    background: #fff;
-    opacity: 1;
-    color: #007bff;
-    text-decoration: none;
-    outline: none;
-    box-shadow: none;
-    transition: 0.3s ease-in-out;
-}
-
-.owl-theme .owl-nav [class*=owl-]:focus,
-.owl-theme:focus,
-.owl-dots:focus,
-.owl-dot:focus {
-    outline: none;
-    box-shadow: none;
 }
 
 .owl-theme .owl-nav .disabled {
