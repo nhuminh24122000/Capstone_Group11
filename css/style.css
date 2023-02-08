@@ -667,30 +667,6 @@ body img {
   }
   .updated form.subscribe__wthree input[type="email"] {
     font-size: 16px;
-<<<<<<< HEAD
-    color: var(--title-color);
-    border-radius: 10px;
-    padding: 0px 20px;
-    height: 60px;
-    flex-basis: 70%;
-    background: #fff;
-    height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .updated input[type="email"]:focus {
-    background: #fff;
-    border: 1px solid #189a46;
-    box-shadow: none;
-  }
-  .updated form.subscribe__wthree button {
-    flex-basis: 27%;
-  }
-  .btn__style {
-    padding: 12px 35px;
-    font-size: 18px;
-    line-height: 28px;
-=======
     line-height: 24.5px;
     color: var(--para-color);
     margin: 15px 0 35px 0;
@@ -781,7 +757,6 @@ body img {
 .number_info h4 {
     font-size: 20px;
     line-height: 25px;
->>>>>>> ad9cd145ba4de4e4050f3af308962d51894749c7
     text-transform: capitalize;
     font-weight: 400;
     transition: 0.3s ease-in;
@@ -829,9 +804,6 @@ body img {
   .footer__main ul.social__icons {
     margin-top: 3px;
     padding: 0;
-<<<<<<< HEAD
-    list-style: none;
-=======
     border-top: none;
     border-bottom: none;
 }
@@ -921,7 +893,6 @@ body img {
 }
 
 .gg-moon {
->>>>>>> ad9cd145ba4de4e4050f3af308962d51894749c7
     overflow: hidden;
   }
   .footer__main ul.social__icons li {
@@ -982,73 +953,6 @@ body img {
 
 
 
-<<<<<<< HEAD
-
-
-@keyframes ripple {
-    0% {
-      box-shadow: 0 0 0 0 rgb(15 162 66 / 16%), 0 0 0 10px rgb(15 162 67 / 25%),
-        0 0 0 20px rgb(15 162 67 / 25%);
-    }
-  
-    100% {
-      box-shadow: 0 0 0 10px rgb(15 162 67 / 25%), 0 0 0 20px rgb(15 162 67 / 25%),
-        0 0 0 40px rgb(50 100 245 / 0%);
-    }
-  }
-  
-  @media (min-width: 576px) {
-    .container {
-      max-width: 540px;
-    }
-  }
-  @media (min-width: 768px) {
-    .container {
-      max-width: 720px;
-    }
-  }
-  @media (min-width: 992px) {
-    .container {
-      max-width: 960px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .container {
-      max-width: 1140px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-  }
-  
-  @media (min-width: 1280px) {
-    .container {
-      max-width: 1200px;
-    }
-  }
-  
-  @media (max-width: 1080px) {
-    .title__detail {
-      font-size: 35px !important;
-      line-height: 40px;
-    }
-  }
-  @media (max-width: 600px) {
-    .title__detail {
-      font-size: 32px !important;
-      line-height: 38px;
-    }
-  }
-  @media (max-width: 378px) {
-    .title__detail {
-      font-size: 27px !important;
-      line-height: 32px;
-    }
-  }
-  
-=======
 input:checked+.mode-container i.gg-moon {
     display: none;
 }
@@ -1888,4 +1792,3 @@ button.mfp-close {
         line-height: 32px;
     }
 }
->>>>>>> ad9cd145ba4de4e4050f3af308962d51894749c7
