@@ -133,6 +133,10 @@ li {
     color: var(--primary-color);
 }
 
+.btn-white:hover {
+    color: var(--primary-color);
+}
+
 .border-btn:hover {
     color: var(--primary-color);
     background: #fff;
@@ -1662,14 +1666,14 @@ a {
     transition: 0.3s ease-in;
     border-radius: 10px;
 }
-    @media (max-width: 375px)
-{
-        .btn__style
-    {
+
+@media (max-width: 375px) {
+    .btn__style {
         padding: 12px 30px;
 
     }
 }
+
 .plans .plans__grid__left.active {
     transform: scale(1.03);
     z-index: 1;
